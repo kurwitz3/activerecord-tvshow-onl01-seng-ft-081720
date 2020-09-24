@@ -27,7 +27,7 @@ end
  
  end 
 def self.shows_by_alphabetical_order 
-  Show.sort_by(:name)
+  Show.order(:name)
 
 end
 end
